@@ -12,9 +12,9 @@
     <TextureView
         android:id="@+id/texture"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_takepicture"
-        android:layout_alignParentTop="true"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
 
     <Button
         android:id="@+id/btn_takepicture"
@@ -25,5 +25,12 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/take_picture" />
+
+    <com.eden.androidcamera.ZoomableImageView
+        android:src="@drawable/rectangle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 
 </RelativeLayout>
