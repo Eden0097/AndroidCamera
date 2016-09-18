@@ -26,7 +26,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/take_picture" />
 
-    <com.eden.androidcamera.ZoomableImageView
+    <ImageView
         android:src="@drawable/rectangle"
         android:gravity="center"
         android:layout_width="match_parent"
